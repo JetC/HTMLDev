@@ -5,33 +5,33 @@
 	<!--加入收藏代码-->
 	<script language="javascript">   
 	function addBookmark(title,url) {   
-	if (window.sidebar) {   
-	window.sidebar.addPanel(title, url,"");   
-	} else if( document.all ) {   
-	window.external.AddFavorite( url, title);   
-	} else if( window.opera && window.print ) {   
-	return true;   
-	}   
-	}   
+		if (window.sidebar) {   
+		window.sidebar.addPanel(title, url,"");   
+		} else if( document.all ) {   
+		window.external.AddFavorite( url, title);   
+		} else if( window.opera && window.print ) {   
+		return true;   
+		}   
+		}   
 	function setHome(url)   
-	{   
-	if (document.all){   
-	document.body.style.behavior='url(#default#homepage)';   
-	document.body.setHomePage(url);   
-	}else if (window.sidebar){   
-	if(window.netscape){   
-	try{   
-	netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");   
-	}catch (e){   
-	alert( "该操作被浏览器拒绝，如果想启用该功能，请在地址栏内输入 about:config,然后将项 signed.applets.codebase_principal_support 值该为true" );   
-	}   
-	}   
-	if(window.confirm("你确定要设置"+url+"为首页吗？")==1){   
-	var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);   
-	prefs.setCharPref('browser.startup.homepage',url);   
-	}   
-	}   
-	}   
+		{   
+		if (document.all){   
+		document.body.style.behavior='url(#default#homepage)';   
+		document.body.setHomePage(url);   
+		}else if (window.sidebar){   
+		if(window.netscape){   
+		try{   
+		netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");   
+		}catch (e){   
+		alert( "该操作被浏览器拒绝，如果想启用该功能，请在地址栏内输入 about:config,然后将项 signed.applets.codebase_principal_support 值该为true" );   
+		}   
+		}   
+		if(window.confirm("你确定要设置"+url+"为首页吗？")==1){   
+		var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);   
+		prefs.setCharPref('browser.startup.homepage',url);   
+		}   
+		}   
+		}   
 	</script> 
 
 
@@ -41,10 +41,16 @@
 			font-family:宋体;
 			font-size: 100%}*/
 		div.main{width:900px;
+				 text-align: center;
 				 margin: auto;
-				 align: center;
+				 
 				 
 				}
+		img.header_logo{margin-top: 10px;
+						margin-bottom: 15px;
+						margin-left: 25px;
+
+					 }
 		div.upper{
 			   font-size: 90%;
 			   text-align: right;
@@ -54,6 +60,17 @@
 				text-decoration: none;
 				vertical-align: top;}
 		
+		div.HuanBaoShuYu{margin: auto;
+						 text-align: left;
+						 margin-top: 10px;
+						}
+		div.upper_buttons{text-align: right;
+						  color: white;
+
+
+
+							}
+
 		</style>
 	<title>网页标题</title>
 
@@ -63,7 +80,9 @@
 <body>
 	<!--收藏和设为主页不支持Chrome,IE可用-->
 	<div class="main">
-	
+		
+		<img src="header_logo.png" align="left" class="header_logo">
+		
 		<div class="upper">	
 			
 			<a href="http://www.sgcc.com.cn/" class="upper">返回首页</a>
@@ -77,6 +96,17 @@
 
 		</div>
 
+		<div class="upper_buttons">
+        <a href="http://www.sgcc.com.cn/" >首页</a><img src="upper_button_1.jpg" width="99" height="38">
+
+
+		</div>
+
+
+		<img src="banner_1.jpg" >
+		<div class="HuanBaoShuYu">
+			<img src="Background_1.jpg">
+		</div>
     
 	
 		
@@ -84,7 +114,7 @@
 
 	
     
-    	<img src="banner_1.jpg" >
+    	
 
     </div>
 
