@@ -45,12 +45,13 @@
 			font-size: 100%}*/
 		div.main{width:1024px;
 				 text-align: center;
+				 text-decoration: none;
 				 margin: auto;
 
 				}
-		img.header_logo{margin-top: 10px;
+		img.header_logo{margin-top: 23px;
 						margin-bottom: 15px;
-						margin-left: 25px;
+						margin-left: 37px;
 
 					 	}
 		div.upper{
@@ -63,37 +64,136 @@
 				vertical-align: top;}
 
 
-		div.HuanBaoShuYu{margin: auto;
+		
+						
+		div.upper_buttons{
+						  background: url(buttons.jpg) no-repeat 0 0;
+						  height:35px;
+						  width:826px;
+						  margin-top: 50px;
+						  margin-left: 303px;
+						  margin-bottom: 15px;
+						  color: white;
+						  text-decoration: none;
+						 }
+		li.upper_buttons1{position: relative;
+						top: 10px;
+						right:55px; 
+						font-size: 15px;
+						text-decoration: none;
+						
+						
+						}
+		li.upper_buttons2{
+						position: relative;
+						top: 10px;
+						right: 55px;
+						font-size: 15px;
+												
+						}
+		li.upper_buttons3{position: relative;
+						top: 10px;
+						right:55px;
+						font-size: 15px;
+						
+						}
+		li.upper_buttons4{position: relative;
+						top: 10px;
+						right:55px;
+						font-size: 15px;
+						
+						}
+		li.upper_buttons5{position: relative;
+						top: 10px;
+						right:55px;
+						font-size: 15px;
+						
+						}
+		li.upper_buttons6{position: relative;
+						top: 10px;
+						right:52.5px;
+						font-size: 15px;
+						
+						}
+		li.upper_buttons7{position: relative;
+						top: 10px;
+						right:36px;
+						font-size: 15px;
+						}
+		a.upper_list{color: white;
+					 text-decoration: none;
+
+					}				
+
+		.upper_buttons ul li{
+			margin: 0 0 0 0;
+			height:35px;
+			float: left;
+			margin-left:30px;
+			list-style-type: none;
+		}
+
+		
+		div.HuanBaoShuYu{background: url(BackGround_1.jpg) no-repeat 0 0 ;
 						 text-align: left;
 						 margin-top: 10px;
-						}
-		div.upper_buttons{text-align: right;
-						  margin-top: 25px;
-						 }
-		a.upper_buttons1{font-size: 15px;
-						text-decoration: none;
+						 margin-left: 0;
+						 height: 276px;
+						 width: 212px;
+						 float: left;
+						  }
+
+		.header_HBSY{color: #00645f;
+				 font-size: 17px;
+				 position: relative;
+				 top: 13px;
+				 left: 48px;
+				}
+		
+		.HuanBaoShuYu ul li{list-style-type: none;
+							line-height: 30px;
+							}
+
+		a.contents_hbsy{text-decoration: none;
 						position: relative;
-						top: 8px;
-						left:110px;
+						top: 18px;
+						left: 8px;
 						}
-		a.upper_buttons2{font-size: 15px;
-						text-decoration: none;
+
+
+
+
+
+
+
+		div.HuiYiJiYao{background: url(BackGround_2.jpg) no-repeat 0 0 ;
+					   float: left;
+					   height: 276px;
+					   width: 427px;
+					   margin-left:12px; 
+					   margin-top:9px; 
+						  }
+
+		.header_HYJY{color: #00645f;
+				 font-size: 17px;
+				 position: relative;
+				 top: 14px;
+				 left: -110px;
+				 
+				}
+		
+		.HuiYiJiYao ul li{list-style-type: none;
+							line-height: 30px;
+							}
+
+		p.contents_hyjy{text-decoration: none;
 						position: relative;
-						top: 8px;
-						left:135px;
+						top: 25px;
+						left: 8px;
+						font-size: 14px;
 						}
-		a.upper_buttons3{font-size: 15px;
-						text-decoration: none;
-						position: relative;
-						top: -9px;
-						left:263px;
-						}
-		a.upper_buttons4{font-size: 15px;
-						text-decoration: none;
-						position: relative;
-						top: -9px;
-						left:280px;
-						}
+
+		
 
 		</style>
 	<title>网页标题</title>
@@ -106,10 +206,11 @@
 
 <body>
 	<!--收藏和设为主页不支持Chrome,IE可用-->
-	<div class="main">
+	<div class="main" >
 
-
-		<img src="header_logo.png" align="left" class="header_logo">
+	<div class="logo">
+		<img src="header_logo.png" align="left" class="header_logo" >
+	</div>
 
 
 		<div class="upper">	
@@ -125,22 +226,45 @@
 		</div>
 
 		<div class="upper_buttons">
-			<img src="buttons.jpg" align="right">
-			<a href="index.html" class="upper_buttons1">首页</a>
-			<a href="环保术语" class="upper_buttons2">环保术语</a>
-			<a href="会议纪要" class="upper_buttons3">会议纪要</a>
-			<a href="文化活动纪要" class="upper_buttons4">文化活动纪要</a>
+			<ul>
+			<li class="upper_buttons1"><a href="index.html" class="upper_list"> 首页</a></li>
+			<li class="upper_buttons2"><a href="" class="upper_list"> 环保术语</a></li>
+			<li class="upper_buttons3"><a href="" class="upper_list"> 会议纪要</a></li>
+			<li class="upper_buttons4"><a href="" class="upper_list"> 文化活动纪要</a></li>
+			<li class="upper_buttons5"><a href="" class="upper_list"> 电子报纸与期刊导读</a></li>
+			<li class="upper_buttons6"><a href="" class="upper_list"> 图片影像</a></li>
+			<li class="upper_buttons7"><a href="" class="upper_list"> 留言板</a></li>
+			</ul>
 		</div>
 
 		<img src="banner_1.jpg" width="1024px">
+		
+		<div class="contents">
 		<div class="HuanBaoShuYu">
-			<img src="Background_1.jpg">
+			
+			<h1 class="header_HBSY">环保术语</h1>
+			<ul>
+				<li><a href="" class="contents_hbsy"> 环保术语测试标题1</a></li>
+				<li><a href="" class="contents_hbsy"> 环保术语测试标题2</a></li>
+				<li><a href="" class="contents_hbsy"> 环保术语测试标题3</a></li>
+				<li><a href="" class="contents_hbsy"> 环保术语测试标题4</a></li>
+				<li><a href="" class="contents_hbsy"> 环保术语测试标题5</a></li>
+				<li><a href="" class="contents_hbsy"> 环保术语测试标题6</a></li>
+
+			</ul>
 		</div>
     
 
+		<div class="HuiYiJiYao">
 
+				<h1 class="header_HYJY">重要会议纪要</p>
+				<ul>
+					<li><a href="" class="contents_hyjy"> 会议纪要测试标题1</a></li>
+				</ul>
+			
+		</div>
 
-
+		</div>
 
 
 
