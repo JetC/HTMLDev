@@ -1,4 +1,4 @@
-﻿	<style type="text/css">
+﻿
 		/*h1 {text-align: right;
 			color:#83b462;
 			font-family:宋体;
@@ -299,22 +299,26 @@
 						margin-top: 8px;
 
 							}
-		h1.header1_TPYX{color:white ;
+		div.header1_TPYX{
 				 font-size: 16px;
 				 position: relative;
-				 top: 38px;
-				 left: -210px;
+				 top: 53px;
+				 left: 4px;
 				 display: block;
 				 float: left;
 
 
 
+
 				}
-		div.pictures{
+		div.Pictures{width: 725px;
+					height: 148px;
+					margin-top: 40px;
+					margin-left: 40px;
 
-					}
+						}
 
 
 
 
-		</style>
+		
