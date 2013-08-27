@@ -15,6 +15,10 @@
 			text-decoration: none;
 		}
 		
+		div.contents0{width: 1024px;
+			height: 145px;
+
+		}
 		div.logo{float: left;
 
 				}
@@ -46,8 +50,8 @@
 							background: url(buttons.jpg) no-repeat 0 0;
 							height: 35px;
 							width: 826px;
-						  display:block;
-						  position: 
+						  
+						  float: right;
 						  
 						  
 
