@@ -1,0 +1,312 @@
+﻿
+		/*h1 {text-align: right;
+			color:#83b462;
+			font-family:宋体;
+			font-size: 100%}*/
+		div.main{width:1024px;
+					height: 1024px;
+				 
+				 text-decoration: none;
+				 margin: auto;
+
+				}
+		a{
+			color: black;
+			text-decoration: none;
+		}
+		img.header_logo{margin-top: 23px;
+						margin-bottom: 15px;
+						margin-left: 37px;
+
+					 	}
+		div.upper{
+			   font-size: 90%;
+			   text-align: right;
+			   margin-top: 10px
+				  }
+		a.upper{color: #83b462;
+				text-decoration: none;
+				vertical-align: top;}
+
+
+
+
+		div.upper_buttons{
+							background: url(buttons.jpg) no-repeat 0 0;
+							height: 35px;
+							width: 826px;
+						  display:block
+						  margin-top: 50px;
+	/* [disabled]margin-left: 503px; */
+	/* [disabled]margin-bottom: 15px; */
+							color: white;
+					text-decoration: none;
+					float:right;
+	/* [disabled]display: block; */
+						 }
+		li.upper_buttons1{position: relative;
+						top: 10px;
+						right:55px; 
+						font-size: 15px;
+						text-decoration: none;
+
+
+						}
+		li.upper_buttons2{
+						position: relative;
+						top: 10px;
+						right: 55px;
+						font-size: 15px;
+
+						}
+		li.upper_buttons3{position: relative;
+						top: 10px;
+						right:55px;
+						font-size: 15px;
+
+						}
+		li.upper_buttons4{position: relative;
+						top: 10px;
+						right:55px;
+						font-size: 15px;
+
+						}
+		li.upper_buttons5{position: relative;
+						top: 10px;
+						right:55px;
+						font-size: 15px;
+
+						}
+		li.upper_buttons6{position: relative;
+						top: 10px;
+						right:52.5px;
+						font-size: 15px;
+
+						}
+		li.upper_buttons7{position: relative;
+						top: 10px;
+						right:36px;
+						font-size: 15px;
+						}
+		a.upper_list{color: white;
+					 text-decoration: none;
+
+					}				
+
+		.upper_buttons ul li{
+			margin: 0 0 0 0;
+			height:35px;
+			float: left;
+			margin-left:30px;
+			list-style-type: none;
+		}
+
+		div.contents1{width: 1024px;
+					height: 276px;
+					float: left;
+						}
+		div.HuanBaoShuYu{background: url(BackGround_1.jpg) no-repeat 0 0 ;
+						 text-align: left;
+						 margin-top: 10px;
+						 margin-left: 0;
+						 height: 276px;
+						 width: 212px;
+						 float: left;
+						  }
+
+		.header_HBSY{color: #00645f;
+				 font-size: 17px;
+				 position: relative;
+				 top: 13px;
+				 left: 48px;
+				}
+
+		.HuanBaoShuYu ul li{list-style-type: none;
+							line-height: 30px;
+							}
+
+		a.contents_hbsy{text-decoration: none;
+							   position: relative;
+									top: 18px;
+								   left: 8px;
+								display: block;
+				 		  text-overflow:ellipsis;
+							   overflow: hidden;
+							white-space:nowrap;
+								  width: 165px;
+						}
+
+
+
+
+
+
+
+		div.HuiYiJiYao{background: url(BackGround_2.jpg) no-repeat 0 0 ;
+					   float: left;
+					   height: 276px;
+					   width: 427px;
+					   margin-left:20px; 
+					   margin-top:9px; 
+					   display: block;
+						  }
+
+		h1.header1_HYJY{color: #00645f;
+				 font-size: 17px;
+				 position: relative;
+				 top: 14px;
+				 left: -110px;
+
+				}
+
+		.HuiYiJiYao ul li{list-style-type: none;
+							line-height:23px;
+							text-align: left;
+							}
+
+		a.contents_hyjy_1{text-decoration: none;
+						position: relative;
+						top: 24px;
+						left: 130px;
+						font-size: 14px;
+						display: block;
+						overflow: hidden;
+						width: 273px;
+						height: 110px;
+						padding: 0;
+						margin-bottom:50px;
+						display: block;
+						text-overflow:ellipsis;
+						overflow: hidden;
+						white-space:nowrap;
+
+
+						}
+		div.contents_hyjy_1{width: 400px;
+						   height: 107px;
+						 overflow: hidden; 
+					  text-indent: 4em;
+					  line-height: 20px;
+						  display: block;
+					   text-align: left;
+
+							}
+		a.more_hyjy{position: relative;
+				 bottom: 126px;
+				 left: 145px;
+				 
+					}
+		.header_hyjy{position: relative;
+					   bottom: 2px;
+					   display: block;
+						text-overflow:ellipsis;
+						overflow: hidden;
+						white-space:nowrap;
+						width: 380px;
+				   }
+
+
+		div.WenHuaHuoDongJiYao{background: url(BackGround_3.jpg) no-repeat 0 0 ;
+									float: right;
+									width: 338px;
+								   height: 277px;
+							  margin-left: 13px;
+							   margin-top: 10px;
+							   }
+		h1.header1_WHHDJY{color: #00645f;
+				 font-size: 17px;
+				 position: relative;
+				 top: 13px;
+				 left: -70px;
+
+				}
+		a.more_whhdjy{position: relative;
+				 		bottom: 20px;
+				 		  left: 117px;
+				 		  border: 0;
+					}
+		.WenHuaHuoDongJiYao ul li{list-style-type: none;
+									  line-height:23.5px;
+									   text-align: left;
+
+									}
+		div.headers_whhdjy{position: relative;
+							bottom: 9px;
+							left: 0px;
+							width: 330px;
+							font-size: 15px;
+
+							}
+		a.header_whhdjy{text-decoration: none;
+						display: block;
+						text-overflow:ellipsis;
+						overflow: hidden;
+						white-space:nowrap;
+
+		}
+
+
+		div.contents2{width: 1024px;
+					  height: 221px;
+						float:left;
+					margin-top: 20px;}
+
+		div.DianZiBaoZhi{background: url(BackGround_4.jpg) no-repeat 0 0 ;
+						width: 214px;
+						height: 241px;
+						float: left;
+
+						}
+		h1.header1_DZBZ{color: #00645f;
+				 font-size: 16px;
+				 position: relative;
+				 top: 14px;
+				 left: 13px;
+
+				}
+
+		.headers_dzbz ul li{list-style-type: none;
+								line-height:26px;
+								 text-align: left;
+
+									}
+		div.headers_dzbz{float: left;
+						 width: 214px;
+						 height: 221px;
+						 margin-top: 18px;
+						 margin-left: -2px;
+
+						}
+		a.header_dzbz{display: block;
+				text-overflow:ellipsis;
+			  		 overflow: hidden;
+				  white-space:nowrap;
+						}
+
+
+
+
+		div.TuPianYingXiang{background: url(BackGround_5.jpg) no-repeat 0 0 ;
+						background-size: 780px 241px;
+						width: 780px;
+						height: 241px;
+						float: right;
+						margin-right: 5px;
+						margin-top: 8px;
+
+							}
+		h1.header1_TPYX{color: white;
+				 font-size: 16px;
+				 position: relative;
+				 top: 38px;
+				 left: 0px;
+				 
+				 float: left;
+
+
+
+
+				}
+
+
+
