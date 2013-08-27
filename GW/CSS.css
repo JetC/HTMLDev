@@ -1,15 +1,22 @@
-﻿
+﻿	<style type="text/css">
 		/*h1 {text-align: right;
 			color:#83b462;
 			font-family:宋体;
 			font-size: 100%}*/
 		div.main{width:1024px;
 					height: 1024px;
-				 
+				 text-align: center;
 				 text-decoration: none;
 				 margin: auto;
 
 				}
+
+		div.contents0{width: 1024px;
+					 height: 105px;
+					 margin-bottom: 13px;
+
+						}
+
 		a{
 			color: black;
 			text-decoration: none;
@@ -32,17 +39,14 @@
 
 
 		div.upper_buttons{
-							background: url(buttons.jpg) no-repeat 0 0;
-							height: 35px;
-							width: 826px;
-						  display:block
+						  background: url(buttons.jpg) no-repeat 0 0;
+						  height:35px;
+						  width:826px;
 						  margin-top: 50px;
-	/* [disabled]margin-left: 503px; */
-	/* [disabled]margin-bottom: 15px; */
-							color: white;
-					text-decoration: none;
-					float:right;
-	/* [disabled]display: block; */
+						  margin-left: 303px;
+						  margin-bottom: 15px;
+						  color: white;
+						  text-decoration: none;
 						 }
 		li.upper_buttons1{position: relative;
 						top: 10px;
@@ -103,7 +107,7 @@
 
 		div.contents1{width: 1024px;
 					height: 276px;
-					float: left;
+					float: center;
 						}
 		div.HuanBaoShuYu{background: url(BackGround_1.jpg) no-repeat 0 0 ;
 						 text-align: left;
@@ -194,7 +198,7 @@
 		a.more_hyjy{position: relative;
 				 bottom: 126px;
 				 left: 145px;
-				 
+
 					}
 		.header_hyjy{position: relative;
 					   bottom: 2px;
@@ -248,7 +252,7 @@
 
 		div.contents2{width: 1024px;
 					  height: 221px;
-						float:left;
+						float:center;
 					margin-top: 20px;}
 
 		div.DianZiBaoZhi{background: url(BackGround_4.jpg) no-repeat 0 0 ;
@@ -295,18 +299,22 @@
 						margin-top: 8px;
 
 							}
-		h1.header1_TPYX{color: white;
+		h1.header1_TPYX{color:white ;
 				 font-size: 16px;
 				 position: relative;
 				 top: 38px;
-				 left: 0px;
-				 
+				 left: -210px;
+				 display: block;
 				 float: left;
 
 
 
-
 				}
+		div.pictures{
+
+					}
 
 
 
+
+		</style>
