@@ -361,14 +361,21 @@ background: url(bottom_buttons.jpg) no-repeat 0 0 ;
 								float: left;
 								}
 		div.bottom_buttons{
-						
+						margin-top: 4px;
 						float: left;
-						margin-left: 180px;
+						margin-left: 120px;
 							}
 
 
 		a.bottom_list{display: block;
 					margin-top: 17px;
+					margin-right: 10px;
 					color: white;
 					float: left;
+						}
+		div.footer_text{margin-top: -60px;
+						float: left;
+						width: 1024px;
+						height: 50px;
+						color: #666666;
 						}
