@@ -366,6 +366,7 @@ background: url(bottom_buttons.jpg) no-repeat 0 0 ;
 						}
 		.bottom_buttons ul li{	height:35px;
 								float: left;
+								list-style: none;
 								}
 		div.bottom_buttons{
 						margin-top: 4px;
