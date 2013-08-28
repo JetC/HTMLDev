@@ -161,7 +161,7 @@
 		.header_HBSY{color: #00645f;
 				 font-size: 17px;
 				 position: relative;
-				 top: 13px;
+				 top: 20px;
 				 left: 48px;
 				}
 
@@ -171,7 +171,7 @@
 
 		a.contents_hbsy{text-decoration: none;
 							   position: relative;
-									top: 18px;
+									top: 25px;
 								   left: 8px;
 								display: block;
 				 		  text-overflow:ellipsis;
@@ -198,7 +198,7 @@
 		h1.header1_HYJY{color: #00645f;
 				 font-size: 17px;
 				 position: relative;
-				 top: 14px;
+				 top: 23px;
 				 left: -110px;
 
 				}
@@ -241,7 +241,7 @@
 
 					}
 		.header_hyjy{position: relative;
-					   bottom: 2px;
+					   bottom: 8px;
 					   display: block;
 						text-overflow:ellipsis;
 						overflow: hidden;
@@ -260,7 +260,7 @@
 		h1.header1_WHHDJY{color: #00645f;
 				 font-size: 17px;
 				 position: relative;
-				 top: 13px;
+				 top: 20px;
 				 left: -70px;
 
 				}
@@ -272,20 +272,24 @@
 		.WenHuaHuoDongJiYao ul li{list-style-type: none;
 									  line-height:23.5px;
 									   text-align: left;
+									   width: 290px;
+									   height: 23px;
+									   display: block;
 
 									}
 		div.headers_whhdjy{position: relative;
-							bottom: 9px;
+							bottom: -5px;
 							left: 0px;
 							width: 330px;
 							font-size: 15px;
-
+							
 							}
 		a.header_whhdjy{text-decoration: none;
 						display: block;
 						text-overflow:ellipsis;
 						overflow: hidden;
 						white-space:nowrap;
+
 
 		}
 
