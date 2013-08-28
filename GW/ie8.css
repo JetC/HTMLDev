@@ -5,61 +5,88 @@
 			font-size: 100%}*/
 		div.main{width:1024px;
 					height: 1024px;
-				 
+				 text-align: center;
 				 text-decoration: none;
 				 margin: auto;
 
 				}
+
+		div.contents0{width: 1024px;
+					 height: 105px;
+					 margin-bottom: 13px;
+
+						}
+
 		a{
-			color: black;
+			color: red;
 			text-decoration: none;
 		}
-		
-		div.contents0{width: 1024px;
-			height: 145px;
+		img{border: 0;
 
-		}
-		div.logo{float: left;
-
-				}
-
-
-		img.header_logo{margin-top: 23px;
+			}
+		img.header_logo{margin-top: 13px;
 						margin-bottom: 15px;
-						margin-left: 37px;
+						margin-left: 23px;
 
 					 	}
 		div.upper{
-				width: 718px;
-				height: 35px;
-				font-size: 90%;
-				display: block;
-				float: right;
-				margin-top: 0px;
-			   
-			  
+			   font-size: 90%;
+			   text-align: right;
+			   margin-top: 10px
 				  }
+		
 		a.upper{color: #83b462;
 				text-decoration: none;
 				vertical-align: top;}
 
+		div.search{
+				
+				margin-top: 17px;
+				margin-bottom: -30px;
+				margin-right: -210px;
+				float: right;	
+				font-size: 14px; 
+				width: 289px;
+				height: 38px;
 
+					}
+		div.inputbox{
+			float: left;
+			width: 50px;
+			height: 30px;
+			margin-right: 150px;
+			
+
+		}
+		div.search_button{
+						color: white;
+						position: relative;
+						right: 47px;
+						bottom: 0px;
+						top: -32px;
+						width: 69px;
+						height: 38px;
+						float: right;
+				   background: url(upper_button_1.jpg) no-repeat 0 0;
+						}
+		.search_button_text{display: block;
+							margin-top:7px;
+							margin-left: -20px;
+							width: 30px;
+							height: 25px;
+							color: white;
+							}
 
 
 		div.upper_buttons{
-							background: url(buttons.jpg) no-repeat 0 0;
-							height: 35px;
-							width: 826px;
-						  
-						  float: right;
-						  
-						  
-
-							color: white;
-					text-decoration: none;
-
-							
-	
+						  background: url(buttons.jpg) no-repeat 0 0;
+						  height:35px;
+						  width:826px;
+						  margin-top: 60px;
+						  margin-left: 283px;
+						  margin-bottom: 0px;
+						  color: white;
+						  text-decoration: none;
 						 }
 		li.upper_buttons1{position: relative;
 						top: 10px;
@@ -120,7 +147,7 @@
 
 		div.contents1{width: 1024px;
 					height: 276px;
-					float: left;
+					float: center;
 						}
 		div.HuanBaoShuYu{background: url(BackGround_1.jpg) no-repeat 0 0 ;
 						 text-align: left;
@@ -209,9 +236,9 @@
 
 							}
 		a.more_hyjy{position: relative;
-				 bottom: 126px;
+				 bottom: 127px;
 				 left: 145px;
-				 
+
 					}
 		.header_hyjy{position: relative;
 					   bottom: 2px;
@@ -265,7 +292,7 @@
 
 		div.contents2{width: 1024px;
 					  height: 221px;
-						float:left;
+						float:center;
 					margin-top: 20px;}
 
 		div.DianZiBaoZhi{background: url(BackGround_4.jpg) no-repeat 0 0 ;
@@ -312,18 +339,60 @@
 						margin-top: 8px;
 
 							}
-		h1.header1_TPYX{color: white;
+		div.header1_TPYX{
 				 font-size: 16px;
 				 position: relative;
-				 top: 38px;
-				 left: 0px;
-				 
+				 top: 53px;
+				 left: 4px;
+				 display: block;
 				 float: left;
 
 
 
 
 				}
+		div.Pictures{width: 725px;
+					height: 148px;
+					margin-top: 40px;
+					margin-left: 40px;
+
+						}
 
 
+		
+		div.contents3{	width: 1024px;
+						height: 167px;
+						float: left;
+						margin-top: 10px;
+						background: url(bottom_buttons.jpg) no-repeat 0 0 ;
+						background-size: 1024px 77px;
+						width: 1024px;
+						height: 167px;
 
+						}
+		.bottom_buttons ul li{	height:35px;
+								float: left;
+								list-style: none;
+								}
+		div.bottom_buttons{
+						margin-top: 14px;
+						float: left;
+						margin-left: 146px;
+						border: 0;
+						align: center;
+
+							}
+
+
+		a.bottom_list{display: block;
+					margin-top: 17px;
+					margin-right: 10px;
+					color: white;
+					float: left;
+						}
+		div.footer_text{margin-top: -90px;
+						float: left;
+						width: 1024px;
+						height: 50px;
+						color: #666666;
+						}
