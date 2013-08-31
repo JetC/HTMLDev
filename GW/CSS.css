@@ -13,7 +13,7 @@
 
 		div.contents0{width: 1024px;
 					 height: 105px;
-					 margin-bottom: 13px;
+					 margin-bottom: 23px;
 
 						}
 
@@ -190,6 +190,7 @@
 					   margin-left:20px; 
 					   margin-top:9px; 
 					   display: block;
+					   line-height: 20px;
 						  }
 
 		h1.header1_HYJY{color: #00645f;
@@ -207,7 +208,7 @@
 
 		a.contents_hyjy_1{text-decoration: none;
 						position: relative;
-						top: 24px;
+						top: 12px;
 						left: 130px;
 						font-size: 14px;
 						display: block;
@@ -217,9 +218,7 @@
 						padding: 0;
 						margin-bottom:50px;
 						display: block;
-						text-overflow:ellipsis;
-						overflow: hidden;
-						white-space:nowrap;
+						
 
 
 						}
@@ -227,7 +226,7 @@
 						   height: 107px;
 						 overflow: hidden; 
 					  text-indent: 4em;
-					  line-height: 20px;
+					  
 						  display: block;
 					   text-align: left;
 
@@ -238,11 +237,12 @@
 
 					}
 		.header_hyjy{position: relative;
-					   bottom: 2px;
+					   bottom: 4px;
 					   display: block;
-						text-overflow:ellipsis;
-						overflow: hidden;
-						white-space:nowrap;
+						
+				 		  text-overflow:ellipsis;
+							   overflow: hidden;
+							white-space:nowrap;
 						width: 380px;
 				   }
 
@@ -373,10 +373,11 @@
 								}
 		div.bottom_buttons{
 						margin-top: 4px;
-						float: left;
-						margin-left: 120px;
-						border: 0;
+						
+						margin-left: 103px;
 
+						border: 0;
+						text-align: center;
 							}
 
 
